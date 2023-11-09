@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 data-js="peopleInSpace"><span></span></h1>
+    <button type="button" data-js="peopleISS" name="peopleISS" id="peopleISS">
+      Sort for people on ISS
+    </button>
+    <button
+      type="button"
+      data-js="peopleTiangong"
+      name="peopleTiangong"
+      id="peopleTiangong"
+    >
+      Sort for people on Tiangong
+    </button>
+    <button type="button" data-js="peopleAll" name="peopleAll" id="peopleAll">
+      Back to all people in space
+    </button>
+    <ul data-js="listWraper">
+      Names of People in Space
+    </ul>
+    <script src="script.js" defer></script>
+  </body>
+</html>
