@@ -12,6 +12,8 @@ async function peopleSpace() {
   const peopleOnTiangong = data.people.filter(
     (person) => person.craft === "Tiangong"
   );
+  console.log(peopleOnISS);
+  console.log(peopleOnTiangong);
 
   data.people.forEach((person) => {
     const listPeople = document.createElement("li");
